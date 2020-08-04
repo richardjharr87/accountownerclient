@@ -34,7 +34,7 @@ const AsyncDeleteAccount = asyncComponent(() => {
 
 function App() {
   return (
-    <BrowserRouter basename="/pauls-brokerage">
+    <BrowserRouter basename="/accountownerserver">
       <Layout>
         <Switch>
         <Route path="/" exact component={Home} />
